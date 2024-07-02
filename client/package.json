@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "generate-app-json": "node generateAppJson.js",
+    "start": "npm run generate-app-json && expo start",
+    "android": "npm run generate-app-json && expo run:android",
+    "ios": "npm run generate-app-json && expo run:ios",
+    "eas-build-pre-submit": "npm run generate-app-json"
   },
   "dependencies": {
     "@expo/webpack-config": "^19.0.0",
