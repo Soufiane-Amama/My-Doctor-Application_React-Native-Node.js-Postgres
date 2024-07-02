@@ -29,7 +29,8 @@
     },
     "extra": {
       "eas": {
-        "projectId": "3307829d-a714-47b4-9c3c-e72205cbd279"
+        "projectId": "3307829d-a714-47b4-9c3c-e72205cbd279",
+        "expoUsername": "soufiane-amama"
       }
     },
     "updates": {
